@@ -2,6 +2,8 @@
 
 In 1958 the logician Hao Wang implemented one of the first automated theorem provers. He succeeded in writing several programs capable of automatically proving a majority of theorems from the first five chapters of Whitehead and Russell's *Principia Mathematica* (in fact, his program managed to prove over 200 of these theorems "within about 37 minutes, and 12/13 of the time is used for read-in and print-out"). This  was an impressive achievement at the time; previous attempts had only succeeded in proving a handful of the theorems in *Principia Mathematica*.
 
+[TOC]
+
 ## Background
 
 Wang's idea is based around the notion of a *sequent* (this idea had been introduced years earlier by Gentzen) and the manipulation of sequents. A sequent is essentially a list of formulae on either side of a sequent (or provability) symbol $\vdash$. The sequent $\pi \vdash \rho$, where $\pi$ and $\rho$ are strings (i.e., lists) of formulae, can be read as "the formulae in the string $\rho$ *follow* from the formulae in the string $\pi$" (or, equivalently, "the formulae in string $\pi$ prove the formulae in string $\rho$").
